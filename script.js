@@ -40,19 +40,28 @@ const apartment2 = new Apartment();
 const apartment3 = new Apartment();
 const apartment4 = new Apartment();
 const apartment5 = new Apartment();
-const apartment6 = new Apartment();
 
 apartment1.addPerson(person2);
 apartment1.addPerson(person1);
 
+console.log(apartment1);
+
+
 apartment2.addPerson(person4);
 apartment2.addPerson(person3);
+
+console.log(apartment2)
+
 
 apartment3.addPerson(person6);
 apartment3.addPerson(person5);
 apartment3.addPerson(person7);
+console.log(apartment3)
 
 apartment4.addPerson(person8);
+console.log(apartment4)
+
+console.log(apartment5)
 
 const house1 = new House(3);
 const house2 = new House(4);
@@ -65,7 +74,6 @@ house1.addApartment(apartment3);
 house1.addApartment(apartment4);
 console.log(house1);
 
-
 house2.addApartment(apartment1);
 house2.addApartment(apartment2);
 house2.addApartment(apartment3);
@@ -74,7 +82,6 @@ house2.addApartment(apartment5);
 
 console.log(house2);
 
-
 house3.addApartment(apartment1);
 house3.addApartment(apartment2);
 house3.addApartment(apartment3);
@@ -87,8 +94,6 @@ house3.addApartment(apartment4);
 house3.addApartment(apartment5);
 house3.addApartment(apartment5);
 
-console.log(house3)
+console.log(house3);
 
-console.log(house4)
-
-
+console.log(house4);
