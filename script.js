@@ -46,22 +46,20 @@ apartment1.addPerson(person1);
 
 console.log(apartment1);
 
-
 apartment2.addPerson(person4);
 apartment2.addPerson(person3);
 
-console.log(apartment2)
-
+console.log(apartment2);
 
 apartment3.addPerson(person6);
 apartment3.addPerson(person5);
 apartment3.addPerson(person7);
-console.log(apartment3)
+console.log(apartment3);
 
 apartment4.addPerson(person8);
-console.log(apartment4)
+console.log(apartment4);
 
-console.log(apartment5)
+console.log(apartment5);
 
 const house1 = new House(3);
 const house2 = new House(4);
